@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js A simple Demo</title>
+	
+
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', 'f2f2f2', '#f2f2f2','#f2f2f2','#f2f2f2','#f2f2f2','#f2f2f2']
+			});
+		});
+	</script>
+
+	<!-- Inserting VIz Style-->
+
+	<style type="text/css">
+.label {
+  font-size: 15px;
+}
+
+.legend{
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.legend text,
+.axis text {
+  font-size: 13px;
+  fill: #333;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke-width:1px;
+  stroke: #e7e7e7;
+}
+
+circle {
+  stroke: #fff;
+}
+
+.bubble {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.bubble text {
+  opacity: 0;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.bubble:hover text {
+  opacity: 1;
+}
+
+.bubble:hover circle {
+  fill-opacity: 1;
+}
+
+.viz1 {
+	float:left;
+}
+.storyarea {
+	float: right;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section active" id="section0"><h1>Visualization Intro</h1></div>
+	<div class="section" id="section1"><h1>Visualization 1</h1></div>
+	<div class="section" id="section2"><h1>Visualization 2</h1></div>
+	<div class="section" id="section3">
+
+	<div id="viz_1" class="viz1"></div>
+    <div id="viz_2" class="storyarea"><h2>Story Area</h2>
+    <p style="font-size: 14px;vertical-align: middle;">
+    Here goes the Story about the visualization.
+    I can right on and on aon <br>
+    I can right on and on aon <br>
+    I can right on and on aon <br>
+    I can right on and on aon <br>
+    </p>
+    </div>
+
+	</div>
+	<div class="section" id="section4"><h1>Visualization 4</h1></div>
+	<div class="section" id="section5"><h1>Visualization 5</h1></div>
+	<div class="section" id="section6"><h1>Visualization 6</h1></div>
+	<div class="section" id="section7"><h1>Visualization 7</h1></div>
+	<!--
+	<div class="section" id="section1">
+	    <div class="slide "><h1>Visualization opening Page</h1></div>
+	    <div class="slide "><h1>Visualization 1</h1></div>
+	    <div class="slide"><h1>Visualization 1</h1></div>
+	    <div class="slide"><h1>Visualization 1</h1></div>
+	</div>
+	-->
+
+</div>
+
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+var margin = { top: 30, right: 50, bottom: 40, left: 50 };
+var width = 900 - margin.left - margin.right;
+var height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select("#viz_1")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xscale = d3.scaleLinear()
+  .domain([0,800])
+  .range([0,width]);
+
+var yscale = d3.scaleLinear()
+  .range([height,0]);
+
+var radius = d3.scaleSqrt()
+  .range([2,8]);
+
+var xAxis = d3.axisBottom()
+  .tickSize(-height)
+  .scale(xscale);
+
+var yAxis = d3.axisLeft()
+  .tickSize(-width)
+  .scale(yscale)
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+d3.csv("data/baseball.csv", function(error, data) {
+  console.log(data);
+  // data pre-processing
+  data.forEach(function(d) {
+    d.y = +d["runs86"];
+    d.x = +d["atbat86"];
+    d.r = +d["homer86"];
+  });
+
+  data.sort(function(a,b) { return b.r - a.r; });
+
+  yscale.domain(d3.extent(data, function(d) {
+    return d.y;
+  })).nice();
+
+  radius.domain(d3.extent(data, function(d) {
+    return d.r;
+  })).nice();
+
+  svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .attr("class", "x axis")
+    .call(xAxis);
+
+  svg.append("g")
+    .attr("transform", "translate(0,0)")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+  var group = svg.selectAll("g.bubble")
+    .data(data)
+    .enter().append("g")
+    .attr("class", "bubble")
+    .attr("transform", function(d) {
+      return "translate(" + xscale(d.x) + "," + yscale(d.y) + ")"
+    });
+
+  group
+    .append("circle")
+    .attr("r", function(d) { return radius(d.r);  })
+    .style("fill", function(d) {
+      return color(d["team86"]);
+    })
+
+  group
+    .append("text")
+    .attr("x", function(d) { return radius(d.r); })
+    .attr("alignment-baseline", "middle")
+    .text(function(d) {
+      return d["name1"] + " " + d["name2"];  
+    });
+
+  svg.append("text")
+    .attr("x", 6)
+    .attr("y", -2)
+    .attr("class", "label")
+    .text("Runs (86)");
+
+  svg.append("text")
+    .attr("x", width-2)
+    .attr("y", height-6)
+    .attr("text-anchor", "end")
+    .attr("class", "label")
+    .text("At Bats (86)");
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(2," + i * 14 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width)
+      .attr("width", 12)
+      .attr("height", 12)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width + 16)
+      .attr("y", 6)
+      .attr("dy", ".35em")
+      .style("text-anchor", "start")
+      .text(function(d) { return d; });
+
+  legend.on("mouseover", function(type) {
+      d3.selectAll(".legend")
+        .style("opacity", 0.1);
+      d3.select(this)
+        .style("opacity", 1);
+      d3.selectAll(".bubble")
+        .style("opacity", 0.1)
+        .filter(function(d) { return d["team86"] == type; })
+        .style("opacity", 1);
+    })
+    .on("mouseout", function(type) {
+      d3.selectAll(".legend")
+        .style("opacity", 1);
+      d3.selectAll(".bubble")
+        .style("opacity", 1);
+    });
+});
+</script>
+</html>
