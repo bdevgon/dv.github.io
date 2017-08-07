@@ -1,0 +1,265 @@
+RowID,Date,Year,Location,IndicatorName,IndicatorValue
+"Orleans Parish, LALife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Orleans Parish, LA","Life expectancy, male",67.7
+"Davidson County, TNLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Davidson County, TN","Life expectancy, male",71.4
+"East Baton Rouge Parish, LALife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"East Baton Rouge Parish, LA","Life expectancy, male",71.8
+"Fulton County, GALife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Fulton County, GA","Life expectancy, male",70.6
+"Hillsborough County, FLLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Hillsborough County, FL","Life expectancy, male",73
+"Jefferson County, KYLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Jefferson County, KY","Life expectancy, male",72.2
+"Miami-Dade County, FLLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Miami-Dade County, FL","Life expectancy, male",74.4
+"Oklahoma County, OKLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Oklahoma County, OK","Life expectancy, male",71.4
+"Shelby County, TNLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Shelby County, TN","Life expectancy, male",69.9
+"Wake County, NCLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,"Wake County, NC","Life expectancy, male",75.4
+"Benchmark AverageLife expectancy, male1999",01/01/1999 12:00:00 AM,1999,Benchmark Average,"Life expectancy, male",72.2
+"Orleans Parish, LALife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Orleans Parish, LA","Life expectancy, female",75.8
+"Davidson County, TNLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Davidson County, TN","Life expectancy, female",77.7
+"East Baton Rouge Parish, LALife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"East Baton Rouge Parish, LA","Life expectancy, female",77.3
+"Fulton County, GALife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Fulton County, GA","Life expectancy, female",76.9
+"Hillsborough County, FLLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Hillsborough County, FL","Life expectancy, female",78.6
+"Jefferson County, KYLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Jefferson County, KY","Life expectancy, female",77.9
+"Miami-Dade County, FLLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Miami-Dade County, FL","Life expectancy, female",80.2
+"Oklahoma County, OKLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Oklahoma County, OK","Life expectancy, female",77.1
+"Shelby County, TNLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Shelby County, TN","Life expectancy, female",76.1
+"Wake County, NCLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,"Wake County, NC","Life expectancy, female",80.1
+"Benchmark AverageLife expectancy, female1999",01/01/1999 12:00:00 AM,1999,Benchmark Average,"Life expectancy, female",78
+"Orleans Parish, LALife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Orleans Parish, LA","Life expectancy, male",67.9
+"Davidson County, TNLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Davidson County, TN","Life expectancy, male",71.6
+"East Baton Rouge Parish, LALife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"East Baton Rouge Parish, LA","Life expectancy, male",72.1
+"Fulton County, GALife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Fulton County, GA","Life expectancy, male",71
+"Hillsborough County, FLLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Hillsborough County, FL","Life expectancy, male",73
+"Jefferson County, KYLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Jefferson County, KY","Life expectancy, male",72.2
+"Miami-Dade County, FLLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Miami-Dade County, FL","Life expectancy, male",74.6
+"Oklahoma County, OKLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Oklahoma County, OK","Life expectancy, male",71.7
+"Shelby County, TNLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Shelby County, TN","Life expectancy, male",70
+"Wake County, NCLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,"Wake County, NC","Life expectancy, male",75.9
+"Benchmark AverageLife expectancy, male2000",01/01/2000 12:00:00 AM,2000,Benchmark Average,"Life expectancy, male",72.5
+"Orleans Parish, LALife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Orleans Parish, LA","Life expectancy, female",75.7
+"Davidson County, TNLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Davidson County, TN","Life expectancy, female",77.7
+"East Baton Rouge Parish, LALife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"East Baton Rouge Parish, LA","Life expectancy, female",77.3
+"Fulton County, GALife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Fulton County, GA","Life expectancy, female",77.1
+"Hillsborough County, FLLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Hillsborough County, FL","Life expectancy, female",78.6
+"Jefferson County, KYLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Jefferson County, KY","Life expectancy, female",77.8
+"Miami-Dade County, FLLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Miami-Dade County, FL","Life expectancy, female",80.5
+"Oklahoma County, OKLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Oklahoma County, OK","Life expectancy, female",77
+"Shelby County, TNLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Shelby County, TN","Life expectancy, female",76.2
+"Wake County, NCLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,"Wake County, NC","Life expectancy, female",80.2
+"Benchmark AverageLife expectancy, female2000",01/01/2000 12:00:00 AM,2000,Benchmark Average,"Life expectancy, female",78
+"Orleans Parish, LALife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Orleans Parish, LA","Life expectancy, male",68
+"Davidson County, TNLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Davidson County, TN","Life expectancy, male",71.6
+"East Baton Rouge Parish, LALife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"East Baton Rouge Parish, LA","Life expectancy, male",72
+"Fulton County, GALife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Fulton County, GA","Life expectancy, male",71.2
+"Hillsborough County, FLLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Hillsborough County, FL","Life expectancy, male",73.1
+"Jefferson County, KYLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Jefferson County, KY","Life expectancy, male",72.3
+"Miami-Dade County, FLLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Miami-Dade County, FL","Life expectancy, male",74.8
+"Oklahoma County, OKLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Oklahoma County, OK","Life expectancy, male",72
+"Shelby County, TNLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Shelby County, TN","Life expectancy, male",70.3
+"Wake County, NCLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,"Wake County, NC","Life expectancy, male",76
+"Benchmark AverageLife expectancy, male2001",01/01/2001 12:00:00 AM,2001,Benchmark Average,"Life expectancy, male",72.6
+"Orleans Parish, LALife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Orleans Parish, LA","Life expectancy, female",75.8
+"Davidson County, TNLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Davidson County, TN","Life expectancy, female",77.5
+"East Baton Rouge Parish, LALife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"East Baton Rouge Parish, LA","Life expectancy, female",77.3
+"Fulton County, GALife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Fulton County, GA","Life expectancy, female",77
+"Hillsborough County, FLLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Hillsborough County, FL","Life expectancy, female",78.6
+"Jefferson County, KYLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Jefferson County, KY","Life expectancy, female",77.8
+"Miami-Dade County, FLLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Miami-Dade County, FL","Life expectancy, female",80.6
+"Oklahoma County, OKLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Oklahoma County, OK","Life expectancy, female",77.1
+"Shelby County, TNLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Shelby County, TN","Life expectancy, female",76.2
+"Wake County, NCLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,"Wake County, NC","Life expectancy, female",80.4
+"Benchmark AverageLife expectancy, female2001",01/01/2001 12:00:00 AM,2001,Benchmark Average,"Life expectancy, female",78.1
+"Orleans Parish, LALife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Orleans Parish, LA","Life expectancy, male",67.7
+"Davidson County, TNLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Davidson County, TN","Life expectancy, male",71.6
+"East Baton Rouge Parish, LALife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"East Baton Rouge Parish, LA","Life expectancy, male",71.9
+"Fulton County, GALife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Fulton County, GA","Life expectancy, male",71.4
+"Hillsborough County, FLLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Hillsborough County, FL","Life expectancy, male",73.2
+"Jefferson County, KYLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Jefferson County, KY","Life expectancy, male",72.4
+"Miami-Dade County, FLLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Miami-Dade County, FL","Life expectancy, male",75.1
+"Oklahoma County, OKLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Oklahoma County, OK","Life expectancy, male",71.9
+"Shelby County, TNLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Shelby County, TN","Life expectancy, male",70.3
+"Wake County, NCLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,"Wake County, NC","Life expectancy, male",76.1
+"Benchmark AverageLife expectancy, male2002",01/01/2002 12:00:00 AM,2002,Benchmark Average,"Life expectancy, male",72.6
+"Orleans Parish, LALife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Orleans Parish, LA","Life expectancy, female",75.9
+"Davidson County, TNLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Davidson County, TN","Life expectancy, female",77.5
+"East Baton Rouge Parish, LALife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"East Baton Rouge Parish, LA","Life expectancy, female",77.3
+"Fulton County, GALife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Fulton County, GA","Life expectancy, female",77.2
+"Hillsborough County, FLLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Hillsborough County, FL","Life expectancy, female",78.8
+"Jefferson County, KYLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Jefferson County, KY","Life expectancy, female",77.9
+"Miami-Dade County, FLLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Miami-Dade County, FL","Life expectancy, female",80.9
+"Oklahoma County, OKLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Oklahoma County, OK","Life expectancy, female",77
+"Shelby County, TNLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Shelby County, TN","Life expectancy, female",76.3
+"Wake County, NCLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,"Wake County, NC","Life expectancy, female",80.7
+"Benchmark AverageLife expectancy, female2002",01/01/2002 12:00:00 AM,2002,Benchmark Average,"Life expectancy, female",78.2
+"Orleans Parish, LALife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Orleans Parish, LA","Life expectancy, male",67.7
+"Davidson County, TNLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Davidson County, TN","Life expectancy, male",71.7
+"East Baton Rouge Parish, LALife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"East Baton Rouge Parish, LA","Life expectancy, male",71.7
+"Fulton County, GALife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Fulton County, GA","Life expectancy, male",71.8
+"Hillsborough County, FLLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Hillsborough County, FL","Life expectancy, male",73.5
+"Jefferson County, KYLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Jefferson County, KY","Life expectancy, male",72.4
+"Miami-Dade County, FLLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Miami-Dade County, FL","Life expectancy, male",75.4
+"Oklahoma County, OKLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Oklahoma County, OK","Life expectancy, male",72.1
+"Shelby County, TNLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Shelby County, TN","Life expectancy, male",70.5
+"Wake County, NCLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,"Wake County, NC","Life expectancy, male",76.3
+"Benchmark AverageLife expectancy, male2003",01/01/2003 12:00:00 AM,2003,Benchmark Average,"Life expectancy, male",72.8
+"Orleans Parish, LALife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Orleans Parish, LA","Life expectancy, female",75.8
+"Davidson County, TNLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Davidson County, TN","Life expectancy, female",77.5
+"East Baton Rouge Parish, LALife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"East Baton Rouge Parish, LA","Life expectancy, female",77.1
+"Fulton County, GALife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Fulton County, GA","Life expectancy, female",77.4
+"Hillsborough County, FLLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Hillsborough County, FL","Life expectancy, female",79
+"Jefferson County, KYLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Jefferson County, KY","Life expectancy, female",78
+"Miami-Dade County, FLLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Miami-Dade County, FL","Life expectancy, female",81.1
+"Oklahoma County, OKLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Oklahoma County, OK","Life expectancy, female",77.2
+"Shelby County, TNLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Shelby County, TN","Life expectancy, female",76.5
+"Wake County, NCLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,"Wake County, NC","Life expectancy, female",80.9
+"Benchmark AverageLife expectancy, female2003",01/01/2003 12:00:00 AM,2003,Benchmark Average,"Life expectancy, female",78.3
+"Orleans Parish, LALife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Orleans Parish, LA","Life expectancy, male",67.5
+"Davidson County, TNLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Davidson County, TN","Life expectancy, male",72.1
+"East Baton Rouge Parish, LALife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"East Baton Rouge Parish, LA","Life expectancy, male",71.8
+"Fulton County, GALife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Fulton County, GA","Life expectancy, male",72.4
+"Hillsborough County, FLLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Hillsborough County, FL","Life expectancy, male",73.8
+"Jefferson County, KYLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Jefferson County, KY","Life expectancy, male",72.9
+"Miami-Dade County, FLLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Miami-Dade County, FL","Life expectancy, male",75.5
+"Oklahoma County, OKLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Oklahoma County, OK","Life expectancy, male",72.4
+"Shelby County, TNLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Shelby County, TN","Life expectancy, male",70.8
+"Wake County, NCLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,"Wake County, NC","Life expectancy, male",76.7
+"Benchmark AverageLife expectancy, male2004",01/01/2004 12:00:00 AM,2004,Benchmark Average,"Life expectancy, male",73.2
+"Orleans Parish, LALife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Orleans Parish, LA","Life expectancy, female",75.9
+"Davidson County, TNLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Davidson County, TN","Life expectancy, female",77.9
+"East Baton Rouge Parish, LALife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"East Baton Rouge Parish, LA","Life expectancy, female",77.4
+"Fulton County, GALife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Fulton County, GA","Life expectancy, female",78
+"Hillsborough County, FLLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Hillsborough County, FL","Life expectancy, female",79.3
+"Jefferson County, KYLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Jefferson County, KY","Life expectancy, female",78.5
+"Miami-Dade County, FLLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Miami-Dade County, FL","Life expectancy, female",81.4
+"Oklahoma County, OKLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Oklahoma County, OK","Life expectancy, female",77.5
+"Shelby County, TNLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Shelby County, TN","Life expectancy, female",76.9
+"Wake County, NCLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,"Wake County, NC","Life expectancy, female",81.2
+"Benchmark AverageLife expectancy, female2004",01/01/2004 12:00:00 AM,2004,Benchmark Average,"Life expectancy, female",78.7
+"Orleans Parish, LALife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Orleans Parish, LA","Life expectancy, male",67.3
+"Davidson County, TNLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Davidson County, TN","Life expectancy, male",72.3
+"East Baton Rouge Parish, LALife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"East Baton Rouge Parish, LA","Life expectancy, male",72.1
+"Fulton County, GALife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Fulton County, GA","Life expectancy, male",72.9
+"Hillsborough County, FLLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Hillsborough County, FL","Life expectancy, male",74
+"Jefferson County, KYLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Jefferson County, KY","Life expectancy, male",73.1
+"Miami-Dade County, FLLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Miami-Dade County, FL","Life expectancy, male",75.7
+"Oklahoma County, OKLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Oklahoma County, OK","Life expectancy, male",72.4
+"Shelby County, TNLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Shelby County, TN","Life expectancy, male",70.9
+"Wake County, NCLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,"Wake County, NC","Life expectancy, male",76.9
+"Benchmark AverageLife expectancy, male2005",01/01/2005 12:00:00 AM,2005,Benchmark Average,"Life expectancy, male",73.4
+"Orleans Parish, LALife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Orleans Parish, LA","Life expectancy, female",75.8
+"Davidson County, TNLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Davidson County, TN","Life expectancy, female",78.3
+"East Baton Rouge Parish, LALife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"East Baton Rouge Parish, LA","Life expectancy, female",77.5
+"Fulton County, GALife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Fulton County, GA","Life expectancy, female",78.2
+"Hillsborough County, FLLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Hillsborough County, FL","Life expectancy, female",79.6
+"Jefferson County, KYLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Jefferson County, KY","Life expectancy, female",78.8
+"Miami-Dade County, FLLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Miami-Dade County, FL","Life expectancy, female",81.7
+"Oklahoma County, OKLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Oklahoma County, OK","Life expectancy, female",77.6
+"Shelby County, TNLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Shelby County, TN","Life expectancy, female",77
+"Wake County, NCLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,"Wake County, NC","Life expectancy, female",81.5
+"Benchmark AverageLife expectancy, female2005",01/01/2005 12:00:00 AM,2005,Benchmark Average,"Life expectancy, female",78.9
+"Orleans Parish, LALife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Orleans Parish, LA","Life expectancy, male",69
+"Davidson County, TNLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Davidson County, TN","Life expectancy, male",72.4
+"East Baton Rouge Parish, LALife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"East Baton Rouge Parish, LA","Life expectancy, male",71.9
+"Fulton County, GALife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Fulton County, GA","Life expectancy, male",73.1
+"Hillsborough County, FLLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Hillsborough County, FL","Life expectancy, male",74.2
+"Jefferson County, KYLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Jefferson County, KY","Life expectancy, male",73.4
+"Miami-Dade County, FLLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Miami-Dade County, FL","Life expectancy, male",75.9
+"Oklahoma County, OKLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Oklahoma County, OK","Life expectancy, male",72.6
+"Shelby County, TNLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Shelby County, TN","Life expectancy, male",71.1
+"Wake County, NCLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,"Wake County, NC","Life expectancy, male",77.3
+"Benchmark AverageLife expectancy, male2006",01/01/2006 12:00:00 AM,2006,Benchmark Average,"Life expectancy, male",73.6
+"Orleans Parish, LALife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Orleans Parish, LA","Life expectancy, female",77.8
+"Davidson County, TNLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Davidson County, TN","Life expectancy, female",78.2
+"East Baton Rouge Parish, LALife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"East Baton Rouge Parish, LA","Life expectancy, female",77.4
+"Fulton County, GALife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Fulton County, GA","Life expectancy, female",78.5
+"Hillsborough County, FLLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Hillsborough County, FL","Life expectancy, female",80
+"Jefferson County, KYLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Jefferson County, KY","Life expectancy, female",79.1
+"Miami-Dade County, FLLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Miami-Dade County, FL","Life expectancy, female",82
+"Oklahoma County, OKLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Oklahoma County, OK","Life expectancy, female",78
+"Shelby County, TNLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Shelby County, TN","Life expectancy, female",77.2
+"Wake County, NCLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,"Wake County, NC","Life expectancy, female",81.8
+"Benchmark AverageLife expectancy, female2006",01/01/2006 12:00:00 AM,2006,Benchmark Average,"Life expectancy, female",79.1
+"Orleans Parish, LALife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Orleans Parish, LA","Life expectancy, male",68.8
+"Davidson County, TNLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Davidson County, TN","Life expectancy, male",72.8
+"East Baton Rouge Parish, LALife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"East Baton Rouge Parish, LA","Life expectancy, male",72.3
+"Fulton County, GALife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Fulton County, GA","Life expectancy, male",73.4
+"Hillsborough County, FLLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Hillsborough County, FL","Life expectancy, male",74.4
+"Jefferson County, KYLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Jefferson County, KY","Life expectancy, male",73.4
+"Miami-Dade County, FLLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Miami-Dade County, FL","Life expectancy, male",76.2
+"Oklahoma County, OKLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Oklahoma County, OK","Life expectancy, male",72.7
+"Shelby County, TNLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Shelby County, TN","Life expectancy, male",71.4
+"Wake County, NCLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,"Wake County, NC","Life expectancy, male",77.5
+"Benchmark AverageLife expectancy, male2007",01/01/2007 12:00:00 AM,2007,Benchmark Average,"Life expectancy, male",73.8
+"Orleans Parish, LALife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Orleans Parish, LA","Life expectancy, female",77.7
+"Davidson County, TNLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Davidson County, TN","Life expectancy, female",78.4
+"East Baton Rouge Parish, LALife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"East Baton Rouge Parish, LA","Life expectancy, female",77.8
+"Fulton County, GALife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Fulton County, GA","Life expectancy, female",79
+"Hillsborough County, FLLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Hillsborough County, FL","Life expectancy, female",80.1
+"Jefferson County, KYLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Jefferson County, KY","Life expectancy, female",79
+"Miami-Dade County, FLLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Miami-Dade County, FL","Life expectancy, female",82.3
+"Oklahoma County, OKLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Oklahoma County, OK","Life expectancy, female",77.9
+"Shelby County, TNLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Shelby County, TN","Life expectancy, female",77.4
+"Wake County, NCLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,"Wake County, NC","Life expectancy, female",81.9
+"Benchmark AverageLife expectancy, female2007",01/01/2007 12:00:00 AM,2007,Benchmark Average,"Life expectancy, female",79.3
+"Orleans Parish, LALife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Orleans Parish, LA","Life expectancy, male",69.3
+"Davidson County, TNLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Davidson County, TN","Life expectancy, male",73.1
+"East Baton Rouge Parish, LALife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"East Baton Rouge Parish, LA","Life expectancy, male",72.9
+"Fulton County, GALife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Fulton County, GA","Life expectancy, male",73.8
+"Hillsborough County, FLLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Hillsborough County, FL","Life expectancy, male",74.6
+"Jefferson County, KYLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Jefferson County, KY","Life expectancy, male",73.7
+"Miami-Dade County, FLLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Miami-Dade County, FL","Life expectancy, male",76.5
+"Oklahoma County, OKLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Oklahoma County, OK","Life expectancy, male",73.2
+"Shelby County, TNLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Shelby County, TN","Life expectancy, male",71.8
+"Wake County, NCLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,"Wake County, NC","Life expectancy, male",77.9
+"Benchmark AverageLife expectancy, male2008",01/01/2008 12:00:00 AM,2008,Benchmark Average,"Life expectancy, male",74.2
+"Orleans Parish, LALife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Orleans Parish, LA","Life expectancy, female",77.6
+"Davidson County, TNLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Davidson County, TN","Life expectancy, female",78.7
+"East Baton Rouge Parish, LALife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"East Baton Rouge Parish, LA","Life expectancy, female",78
+"Fulton County, GALife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Fulton County, GA","Life expectancy, female",78.9
+"Hillsborough County, FLLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Hillsborough County, FL","Life expectancy, female",80.2
+"Jefferson County, KYLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Jefferson County, KY","Life expectancy, female",79
+"Miami-Dade County, FLLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Miami-Dade County, FL","Life expectancy, female",82.5
+"Oklahoma County, OKLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Oklahoma County, OK","Life expectancy, female",78.1
+"Shelby County, TNLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Shelby County, TN","Life expectancy, female",77.3
+"Wake County, NCLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,"Wake County, NC","Life expectancy, female",82
+"Benchmark AverageLife expectancy, female2008",01/01/2008 12:00:00 AM,2008,Benchmark Average,"Life expectancy, female",79.4
+"Orleans Parish, LALife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Orleans Parish, LA","Life expectancy, male",70
+"Davidson County, TNLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Davidson County, TN","Life expectancy, male",73.2
+"East Baton Rouge Parish, LALife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"East Baton Rouge Parish, LA","Life expectancy, male",73
+"Fulton County, GALife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Fulton County, GA","Life expectancy, male",74.2
+"Hillsborough County, FLLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Hillsborough County, FL","Life expectancy, male",74.9
+"Jefferson County, KYLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Jefferson County, KY","Life expectancy, male",73.9
+"Miami-Dade County, FLLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Miami-Dade County, FL","Life expectancy, male",77
+"Oklahoma County, OKLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Oklahoma County, OK","Life expectancy, male",72.9
+"Shelby County, TNLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Shelby County, TN","Life expectancy, male",72
+"Wake County, NCLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,"Wake County, NC","Life expectancy, male",78.3
+"Benchmark AverageLife expectancy, male2009",01/01/2009 12:00:00 AM,2009,Benchmark Average,"Life expectancy, male",74.4
+"Orleans Parish, LALife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Orleans Parish, LA","Life expectancy, female",78.1
+"Davidson County, TNLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Davidson County, TN","Life expectancy, female",78.8
+"East Baton Rouge Parish, LALife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"East Baton Rouge Parish, LA","Life expectancy, female",78.2
+"Fulton County, GALife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Fulton County, GA","Life expectancy, female",79.1
+"Hillsborough County, FLLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Hillsborough County, FL","Life expectancy, female",80
+"Jefferson County, KYLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Jefferson County, KY","Life expectancy, female",79
+"Miami-Dade County, FLLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Miami-Dade County, FL","Life expectancy, female",82.8
+"Oklahoma County, OKLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Oklahoma County, OK","Life expectancy, female",77.8
+"Shelby County, TNLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Shelby County, TN","Life expectancy, female",77.6
+"Wake County, NCLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,"Wake County, NC","Life expectancy, female",82.1
+"Benchmark AverageLife expectancy, female2009",01/01/2009 12:00:00 AM,2009,Benchmark Average,"Life expectancy, female",79.5
+"Orleans Parish, LALife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Orleans Parish, LA","Life expectancy, male",71.7
+"Davidson County, TNLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Davidson County, TN","Life expectancy, male",73.7
+"East Baton Rouge Parish, LALife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"East Baton Rouge Parish, LA","Life expectancy, male",73.3
+"Fulton County, GALife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Fulton County, GA","Life expectancy, male",74.8
+"Hillsborough County, FLLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Hillsborough County, FL","Life expectancy, male",75.6
+"Jefferson County, KYLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Jefferson County, KY","Life expectancy, male",74.2
+"Miami-Dade County, FLLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Miami-Dade County, FL","Life expectancy, male",77.5
+"Oklahoma County, OKLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Oklahoma County, OK","Life expectancy, male",73.3
+"Shelby County, TNLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Shelby County, TN","Life expectancy, male",72.5
+"Wake County, NCLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,"Wake County, NC","Life expectancy, male",78.7
+"Benchmark AverageLife expectancy, male2010",01/01/2010 12:00:00 AM,2010,Benchmark Average,"Life expectancy, male",74.8
+"Orleans Parish, LALife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Orleans Parish, LA","Life expectancy, female",79.2
+"Davidson County, TNLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Davidson County, TN","Life expectancy, female",79.1
+"East Baton Rouge Parish, LALife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"East Baton Rouge Parish, LA","Life expectancy, female",78.7
+"Fulton County, GALife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Fulton County, GA","Life expectancy, female",79.6
+"Hillsborough County, FLLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Hillsborough County, FL","Life expectancy, female",80.5
+"Jefferson County, KYLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Jefferson County, KY","Life expectancy, female",79.1
+"Miami-Dade County, FLLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Miami-Dade County, FL","Life expectancy, female",83.5
+"Oklahoma County, OKLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Oklahoma County, OK","Life expectancy, female",78.1
+"Shelby County, TNLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Shelby County, TN","Life expectancy, female",78.1
+"Wake County, NCLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,"Wake County, NC","Life expectancy, female",82.5
+"Benchmark AverageLife expectancy, female2010",01/01/2010 12:00:00 AM,2010,Benchmark Average,"Life expectancy, female",79.9

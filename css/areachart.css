@@ -1,0 +1,49 @@
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: none;
+}
+.land {
+  fill:rgb(190, 0, 50);
+  opacity:0.5;
+   font-size: 8px;
+   stroke: #000;
+}
+.land:hover {
+  opacity:0.65;
+}
+
+.water {
+  fill: rgb(0, 103, 165);
+   opacity:0.5;
+   font-size: 8px;
+   stroke: #000;
+}
+  
+.water:hover {
+  opacity:0.65;
+}
+
+.population:hover {
+  opacity:0.65;
+}
+
+  .population {
+  fill: rgb(249, 147, 121);
+   opacity:0.5;
+   font-size: 8px;
+   stroke: #000;
+}
+
+.d3-tip {
+  /* line-height: 1; */
+  font-size: 20px;
+  padding: 15px;
+  color: #000;
+}
+

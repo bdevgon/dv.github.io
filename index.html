@@ -1,259 +1,402 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+ <!DOCTYPE HTML> 
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Data Visualization Final Assignment</title>
-	
+	<title>Explore New Orleans</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
 
-
-	<link rel="stylesheet" type="text/css" href="//bdevgon.github.io/dv.github.io/css/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="//bdevgon.github.io/dv.github.io/css/examples.css" />
-
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-	<script type="text/javascript" src="//bdevgon.github.io/dv.github.io/js/scrolloverflow.js"></script>
-
-	<script type="text/javascript" src="//bdevgon.github.io/dv.github.io/js/jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', 'f2f2f2', '#f2f2f2','#f2f2f2','#f2f2f2','#f2f2f2','#f2f2f2']
-			});
-		});
-	</script>
-
-	<!-- Inserting VIz Style-->
-
-	<style type="text/css">
-.label {
-  font-size: 15px;
-}
-
-.legend{
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-.legend text,
-.axis text {
-  font-size: 13px;
-  fill: #333;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke-width:1px;
-  stroke: #e7e7e7;
-}
-
-circle {
-  stroke: #fff;
-}
-
-.bubble {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-.bubble text {
-  opacity: 0;
-  pointer-events: none;
-  font-size: 12px;
-}
-
-.bubble:hover text {
-  opacity: 1;
-}
-
-.bubble:hover circle {
-  fill-opacity: 1;
-}
-
-.viz1 {
-	float:left;
-}
-.storyarea {
-	float: right;
-}
-
-
-</style>
-
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />   
+	</noscript>
+	<link rel="stylesheet" type="text/css" href="css/pie-slide.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/areachart.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/barchart.css" /> 
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 </head>
-<body>
 
-<div id="fullpage">
-	<div class="section active" id="section0"><h1>Visualization Intro</h1></div>
-	<div class="section" id="section1"><h1>Visualization 1</h1></div>
-	<div class="section" id="section2"><h1>Visualization 2</h1></div>
-	<div class="section" id="section3">
+<body class="index loading">
 
-	<div id="viz_1" class="viz1"></div>
-    <div id="viz_2" class="storyarea"><h2>Story Area</h2>
-    <p style="font-size: 14px;vertical-align: middle;">
-    Here goes the Story about the visualization.
-    I can right on and on aon <br>
-    I can right on and on aon <br>
-    I can right on and on aon <br>
-    I can right on and on aon <br>
-    </p>
-    </div>
+	<!-- Header -->
+	<header id="header" class="alt">
+		<h1 id="logo"><a href="index.html">CS498 <span>Data Visualization <br/> University of Illinois <br/> 
+					<span style="color:darkorange"><b>Urbana Champaign</b></span></span></a></h1>
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="index.html">Welcome</a></li>
+				<li class="submenu">
+					<!-- <a href="">Layouts</a> -->
+					<ul>
+						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li class="submenu">
+							<a href="">Submenu</a>
+							<ul>
+								<li><a href="#">Dolore Sed</a></li>
+								<li><a href="#">Consequat</a></li>
+								<li><a href="#">Lorem Magna</a></li>
+								<li><a href="#">Sed Magna</a></li>
+								<li><a href="#">Ipsum Nisl</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<!-- <li><a href="#" class="button special">Sign Up</a></li> -->
+			</ul>
+		</nav>
+	</header>
 
-	</div>
-	<div class="section" id="section4"><h1>Visualization 4</h1></div>
-	<div class="section" id="section5"><h1>Visualization 5</h1></div>
-	<div class="section" id="section6"><h1>Visualization 6</h1></div>
-	<div class="section" id="section7"><h1>Visualization 7</h1></div>
-	<!--
-	<div class="section" id="section1">
-	    <div class="slide "><h1>Visualization opening Page</h1></div>
-	    <div class="slide "><h1>Visualization 1</h1></div>
-	    <div class="slide"><h1>Visualization 1</h1></div>
-	    <div class="slide"><h1>Visualization 1</h1></div>
-	</div>
-	-->
+	<!-- Banner -->
+	<section id="banner">
 
-</div>
+		<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+		<div class="inner">
 
-</body>
+			<header>
+				<h2><span style="color:darkorange">New Orleans</span></h2>
+			</header>
+			<p>Explore <strong>New Orleans</strong> over the years !<br /> data driven insights<br /> by <a href="index.html">Bhaskar Devgon</a>.</p>
+			<footer>
+				<ul class="buttons vertical">
+					<li><a href="#about" class="button fit scrolly">About Visualization</a></li>
+					<li>Scroll Down</li>
+				</ul>
+			</footer>
 
-<script src="//d3js.org/d3.v4.min.js"></script>
-<script>
-var margin = { top: 30, right: 50, bottom: 40, left: 50 };
-var width = 900 - margin.left - margin.right;
-var height = 500 - margin.top - margin.bottom;
+		</div>
 
-var svg = d3.select("#viz_1")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	</section>
 
-var xscale = d3.scaleLinear()
-  .domain([0,800])
-  .range([0,width]);
 
-var yscale = d3.scaleLinear()
-  .range([height,0]);
 
-var radius = d3.scaleSqrt()
-  .range([2,8]);
+	<!-- Main -->
+	<article id="main">
 
-var xAxis = d3.axisBottom()
-  .tickSize(-height)
-  .scale(xscale);
+		<header class="special container">
+			<span class="icon fa-bar-chart-o"></span>
+			<h2><span style="color:darkorange">New Orleans</span> is a Louisiana city on the Mississippi River, near the Gulf of Mexico.
+				Nicknamed the "Big Easy," </h2>
+			<p>It is one of the world's most fascinating cities – it's home to a truly unique melting pot of culture, food and music.It's
+				known for its round-the-clock nightlife, vibrant live-music scene and spicy, singular cuisine reflecting its history
+				as a melting pot of French, African and American cultures. Embodying its festive spirit is Mardi Gras, the late-winter
+				carnival famed for raucous costumed parades and street parties.<br/>
+				<strong> Population : 391,495 (2016)</strong>
+			</p>
+		</header>
 
-var yAxis = d3.axisLeft()
-  .tickSize(-width)
-  .scale(yscale)
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-d3.csv("data/baseball.csv", function(error, data) {
-  console.log(data);
-  // data pre-processing
-  data.forEach(function(d) {
-    d.y = +d["runs86"];
-    d.x = +d["atbat86"];
-    d.r = +d["homer86"];
-  });
+		<!-- Two -->
+		<section class="wrapper style1 container special">
+			<div class="row">
+				<div class="4u">
 
-  data.sort(function(a,b) { return b.r - a.r; });
+					<section>
+						<!-- <span class="icon feature fa-check"></span> -->
+						<div class="population" id="population">
 
-  yscale.domain(d3.extent(data, function(d) {
-    return d.y;
-  })).nice();
+						</div>
+						<header>
+							<h3>Population</h3>
+						</header>
+						<p>We can see how the population was growing at a steady rate and then after 1960's it started to
+						fall drastically, Fortunately it has started to rise again since 2010.
+						</p>
+					</section>
 
-  radius.domain(d3.extent(data, function(d) {
-    return d.r;
-  })).nice();
+				</div>
+				<div class="4u">
 
-  svg.append("g")
-    .attr("transform", "translate(0," + height + ")")
-    .attr("class", "x axis")
-    .call(xAxis);
+					<section>
+						<!-- <span class="icon feature fa-check"></span>  -->
+						<div class="land" id="land">
 
-  svg.append("g")
-    .attr("transform", "translate(0,0)")
-    .attr("class", "y axis")
-    .call(yAxis);
+						</div>
 
-  var group = svg.selectAll("g.bubble")
-    .data(data)
-    .enter().append("g")
-    .attr("class", "bubble")
-    .attr("transform", function(d) {
-      return "translate(" + xscale(d.x) + "," + yscale(d.y) + ")"
-    });
 
-  group
-    .append("circle")
-    .attr("r", function(d) { return radius(d.r);  })
-    .style("fill", function(d) {
-      return color(d["team86"]);
-    })
+						<header>
+							<h3>Land Area</h3>
+						</header>
+						<p>We can also observe a steady decline in land area over last 3 decades. What's the trade off here ? </p>
+					</section>
 
-  group
-    .append("text")
-    .attr("x", function(d) { return radius(d.r); })
-    .attr("alignment-baseline", "middle")
-    .text(function(d) {
-      return d["name1"] + " " + d["name2"];  
-    });
+				</div>
+				<div class="4u">
 
-  svg.append("text")
-    .attr("x", 6)
-    .attr("y", -2)
-    .attr("class", "label")
-    .text("Runs (86)");
+					<section>
+						<!-- <span class="icon feature fa-check"></span>  -->
 
-  svg.append("text")
-    .attr("x", width-2)
-    .attr("y", height-6)
-    .attr("text-anchor", "end")
-    .attr("class", "label")
-    .text("At Bats (86)");
+						<div class="water" id="water">
 
-  var legend = svg.selectAll(".legend")
-      .data(color.domain())
-    .enter().append("g")
-      .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(2," + i * 14 + ")"; });
+						</div>
 
-  legend.append("rect")
-      .attr("x", width)
-      .attr("width", 12)
-      .attr("height", 12)
-      .style("fill", color);
+						<header>
+							<h3>Water Area</h3>
+						</header>
+						<p>Fortunately the water area has increased for the people of New Orleans. The city proudly show cases it's water bodies</p>
+					</section>
 
-  legend.append("text")
-      .attr("x", width + 16)
-      .attr("y", 6)
-      .attr("dy", ".35em")
-      .style("text-anchor", "start")
-      .text(function(d) { return d; });
+					</div>
+					</div>
+					</section>
+					
+				<!-- Three -->
+					<section class="wrapper style3 container special ">
+					
+						<header class="major ">
+							<h2>Let's checkout <strong>SOME Trends</strong></h2>
+						</header>
+						
+						<div class="row ">
+							<div class="6u ">
+							
+								<section>
+									<ul class="buttons vertical" style="background-color:#d1d1e0; box-shadow: 5px 5px 5px #888888;;">
+										<li><a onclick="d3.select('#barchart').selectAll('svg').remove(); 
+											barchart('cultaraljobs','cultaral job percentage of total jobs');" href="javascript:void(0);" 
+											class="button fit scrolly">Cultural Jobs</a></li>
+									</ul>
+									<ul class="buttons vertical" style="background-color:#c1f0f0;box-shadow: 5px 5px 5px #888888;">
+										<li><a onclick="d3.select('#barchart').selectAll('svg').remove(); 
+											barchart('income','median household income');" href="javascript:void(0);" 
+											class="button fit scrolly">Average Household income</a></li>
+									</ul>
+									<ul class="buttons vertical" style="background-color:#ffffb3;box-shadow: 5px 5px 5px #888888;">
+										<li><a onclick="d3.select('#barchart').selectAll('svg').remove(); 
+											barchart('tourists','tourists in millions');" href="javascript:void(0);" 
+											class="button fit scrolly">Tourism over years</a></li>
+									</ul>
+										<ul class="buttons vertical" style="background-color:#ffcce0;box-shadow: 5px 5px 5px #888888;">
+										<li><a onclick="d3.select('#barchart').selectAll('svg').remove(); 
+											barchart('parks','park rating');" href="javascript:void(0);" 
+											class="button fit scrolly">City Parks</a></li>
+									</ul>
+								
+								</section>
 
-  legend.on("mouseover", function(type) {
-      d3.selectAll(".legend")
-        .style("opacity", 0.1);
-      d3.select(this)
-        .style("opacity", 1);
-      d3.selectAll(".bubble")
-        .style("opacity", 0.1)
-        .filter(function(d) { return d["team86"] == type; })
-        .style("opacity", 1);
-    })
-    .on("mouseout", function(type) {
-      d3.selectAll(".legend")
-        .style("opacity", 1);
-      d3.selectAll(".bubble")
-        .style("opacity", 1);
-    });
-});
-</script>
+							</div>
+							<div class="6u ">
+							
+								<section>
+									<div id="barchart"> 
+										<div id="cultaraljobs"> </div>
+										<div id="income"> </div>
+										<div id="tourists"> </div>
+										<div id="parks"> </div>
+									</div>
+									
+									<!-- <a href="# " class="image feature "><img src="images/pic02.jpg " alt=" " /></a>
+									<header>
+										<h3>An Airport Terminal</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p> -->
+								</section>
+
+							</div>
+						</div>
+						</section>
+					
+						
+								<header class="special container">
+									<span class="icon fa-bar-chart-o"></span>
+									<h2><span style="color:darkorange">New Orleans</span> There is a lot about the city and how it clearly stands apart compared to other cities.
+										 </h2>
+										<strong> More Coming soon !! </strong>
+									</p>
+								</header>
+
+								<!-- <section class="wrapper style3 container special ">
+
+									<!-- <header class="major ">
+										<h2>More<strong> Trends</strong></h2>
+									</header> -->
+						<div class="row ">
+							<div class="6u ">
+							
+								<section>
+									<!-- <div>
+									<form>
+										<ul><li>
+										<label><input type="radio" name="dataset" value="apples" > Apples</label>
+										</li><li>
+										<label><input type="radio" name="dataset" value="oranges"> Oranges</label>
+										</li>
+									</ul>
+									</form>
+									</div> -->
+									
+									<!-- <a href="# " class="image feature "><img src="images/pic02.jpg " alt=" " /></a>
+									<header>
+										<h3>An Airport Terminal</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p> -->
+								</section>
+
+							</div>
+
+							<div class="6u">
+								<section>
+										<div id="simplepie"> </div>
+									</section>
+
+							</div>
+						</div>
+
+						<!-- <footer class="major ">
+							<ul class="buttons ">
+								<li><a href="# " class="button ">See More</a></li>
+							</ul>
+						</footer> -->
+					
+					</section> -->
+					
+			</article>
+
+		<!-- CTA -->
+			<!-- <section id="cta ">
+			
+				<header>
+					<h2>Ready to do <strong>something</strong>?</h2>
+					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+				</header>
+				<footer>
+					<ul class="buttons ">
+						<li><a href="# " class="button special ">Take My Money</a></li>
+						<li><a href="# " class="button ">LOL Wut</a></li>
+					</ul>
+				</footer>
+			
+			</section> -->
+
+
+
+<!-- One -->
+					<section class="wrapper style2 container special-alt " id="about">
+						<div class="row half ">
+							<div class="8u ">
+							
+								<header>
+									<h2 >About the Visualizaton</h2>
+								</header>
+
+								<p><b>About</b><br/> The visualiazation is about  city of New Orleans in Louisiana. The pages attempts to show several insiights about
+									the city.It tries to enagage the user by showing several insights about the city. The attempt was to provide extensive data driven
+									insights about the city for assisting users in making informed decisions about the city.
+									More infromation to come soon.
+									</p>
+								<p><b>Structure</b><br/>The project story follows a drill down story structure.
+									The user can interact with the visualizations on individual pages and look for insights about the city
+									</p>
+
+									<p><b>Scenes</b><br/>Each scenne in the visualization show cases information about the city of New Orleans.
+										More insights can be plotted and the users of this visualization can take informed decisions about living
+										in New Orleans
+									</p>
+
+									<p><b>Annotations</b><br/>
+										Annotations are presented in terms of tool tips.
+									</p>
+
+								<footer>
+									<ul class="buttons ">
+										<li><a href="#more " class="button ">Find Out More</a></li>
+									</ul>
+								</footer>
+							
+							</div>
+							<div class="4u skel-cell-important ">
+							
+								<ul class="feature-icons ">
+									<li><span class="icon fa-clock-o "><span class="label ">Feature 1</span></span></li>
+									<li><span class="icon fa-volume-up "><span class="label ">Feature 2</span></span></li>
+									<li><span class="icon fa-laptop "><span class="label ">Feature 3</span></span></li>
+									<li><span class="icon fa-inbox "><span class="label ">Feature 4</span></span></li>
+									<li><span class="icon fa-lock "><span class="label ">Feature 5</span></span></li>
+									<li><span class="icon fa-cog "><span class="label ">Feature 6</span></span></li>
+								</ul>
+							
+							</div>				
+						</div>
+					</section>
+			 <!-- one extended -->
+					<section class="wrapper style2 container special-alt " id="more ">
+						<div class="row half ">
+							<div class="8u ">
+							
+								<header>
+									<h2 >More About the Visualizaton !</h2>
+								</header>
+									<p><b>Parameters</b><br/>
+										The buttons on the bar chart slide section allows users to switch between parameters and factors and re-render the view.
+									</p>
+
+									<p><b>Triggers</b><br/>Trigger are shown in 2 ways , tooltips and button mouseclicks.
+									</p>
+
+									
+									</p>
+							
+							</div>
+							<!-- <div class="4u skel-cell-important ">
+							
+								<ul class="feature-icons ">
+									<li><span class="icon fa-clock-o "><span class="label ">Feature 1</span></span></li>
+									<li><span class="icon fa-volume-up "><span class="label ">Feature 2</span></span></li>
+									<li><span class="icon fa-laptop "><span class="label ">Feature 3</span></span></li>
+									<li><span class="icon fa-inbox "><span class="label ">Feature 4</span></span></li>
+									<li><span class="icon fa-lock "><span class="label ">Feature 5</span></span></li>
+									<li><span class="icon fa-cog "><span class="label ">Feature 6</span></span></li>
+								</ul>
+							
+							</div>				 -->
+						</div>
+					</section>
+
+					 <!-- one extended -->
+
+
+		<!-- Footer -->
+			<footer id="footer ">
+			
+				<!-- <ul class="icons ">
+					<li><a href="# " class="icon circle fa-twitter "><span class="label ">Twitter</span></a></li>
+					<li><a href="# " class="icon circle fa-facebook "><span class="label ">Facebook</span></a></li>
+					<li><a href="# " class="icon circle fa-google-plus "><span class="label ">Google+</span></a></li>
+					<li><a href="# " class="icon circle fa-github "><span class="label ">Github</span></a></li>
+					<li><a href="# " class="icon circle fa-dribbble "><span class="label ">Dribbble</span></a></li>
+				</ul>
+				
+				<span class="copyright ">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net ">HTML5 UP</a>.</span>
+			 -->
+			</footer>
+			
+	 <script src="http://d3js.org/d3.v3.min.js "></script> 
+	  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.js"></script>
+	<script type="text/javascript " src="js/areachart.js "></script> 
+	<script type="text/javascript" src="js/barchart.js"></script>
+	<script type="text/javascript" src="js/pie-script.js"></script>
+	<!-- <script type="text/javascript" src="js/simplepie.js"></script> -->
+	</body>
 </html>
