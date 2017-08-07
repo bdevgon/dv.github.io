@@ -102,20 +102,62 @@ if(id=="#land")
       .datum(data)
       .attr("class", "land")
       .attr("d", area)
+        .on("mouseover", function() {
+          tooltip.style("display", null);
+        })
+        .on("mouseout", function() {
+          tooltip.style("display", "none");
+        })
+        .on("mousemove", function(d) {
+          var xPosition = d3.mouse(this)[0] - 15;
+          var yPosition = d3.mouse(this)[1] - 25;
+          tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+          var x0 = x.invert(d3.mouse(this)[0]);  
+          var y0 = y.invert(d3.mouse(this)[1]); 
+          tooltip.select("text").text(d3.time.format('%Y/%m/%d')(x0)+ " " +Math.round(y0));
+        });
     }
     else if(id=="#water")
     {
      svg.append("path")
       .datum(data)
       .attr("class", "water")
-      .attr("d", area);
+      .attr("d", area)
+        .on("mouseover", function() {
+          tooltip.style("display", null);
+        })
+        .on("mouseout", function() {
+          tooltip.style("display", "none");
+        })
+        .on("mousemove", function(d) {
+          var xPosition = d3.mouse(this)[0] - 15;
+          var yPosition = d3.mouse(this)[1] - 25;
+          tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+          var x0 = x.invert(d3.mouse(this)[0]);  
+          var y0 = y.invert(d3.mouse(this)[1]); 
+          tooltip.select("text").text(d3.time.format('%Y/%m/%d')(x0)+ " " +Math.round(y0));
+        });
     }
        else if(id=="#population")
     {
      svg.append("path")
       .datum(data)
       .attr("class", "population")
-      .attr("d", area);
+      .attr("d", area)
+        .on("mouseover", function() {
+          tooltip.style("display", null);
+        })
+        .on("mouseout", function() {
+          tooltip.style("display", "none");
+        })
+        .on("mousemove", function(d) {
+          var xPosition = d3.mouse(this)[0] - 15;
+          var yPosition = d3.mouse(this)[1] - 25;
+          tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+          var x0 = x.invert(d3.mouse(this)[0]);  
+          var y0 = y.invert(d3.mouse(this)[1]); 
+          tooltip.select("text").text(d3.time.format('%Y/%m/%d')(x0)+ " " +Math.round(y0));
+        });
     }
 
   svg.append("g")
@@ -157,6 +199,24 @@ if(id=="#land")
 //     else if(id=="#population"){return y(d.population);}
 
 // });
+    
+    var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("opacity", 1.0)
+        .style("display", "none");
+
+      tooltip.append("rect")
+        .attr("width", 120)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 1.0);
+
+      tooltip.append("text")
+        .attr("x", 60)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold");
   
 });
 
