@@ -70,11 +70,11 @@ var svg = d3.select(id).append("svg")
 
 if(id=="#land" || id=="#water")
     {
-var plotdata = "data/landarea.tsv";
+var plotdata = "https://bdevgon.github.io/dv.github.io/data/landarea.tsv";
     }
     else if(id=="#population")
         {
-var plotdata = "data/no-population.tsv";
+var plotdata = "https://bdevgon.github.io/dv.github.io/data/no-population.tsv";
         }
 
 d3.tsv(plotdata, type, function(error, data) {
